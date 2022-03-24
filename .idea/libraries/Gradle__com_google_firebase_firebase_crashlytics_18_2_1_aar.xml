@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-crashlytics:18.2.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/139584be0e719f2619fc1cbc32a7a9b0/firebase-crashlytics-18.2.1/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/a569c4511b53ac2c661d7432aa90851f/firebase-crashlytics-18.2.1/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/faec0a0ff9d8e0479d50fb560340bdff/firebase-crashlytics-18.2.1/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/de114e51bdc36a119ee67cd43310c72a/firebase-crashlytics-18.2.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/de114e51bdc36a119ee67cd43310c72a/firebase-crashlytics-18.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/de114e51bdc36a119ee67cd43310c72a/firebase-crashlytics-18.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-crashlytics/18.2.1/d0fb7d0be0fe717617a8d910e9688e3b5a80f33f/firebase-crashlytics-18.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

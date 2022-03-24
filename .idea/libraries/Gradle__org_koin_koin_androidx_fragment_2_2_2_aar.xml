@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: org.koin:koin-androidx-fragment:2.2.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f8c9c5b355156403c5755319f9943127/koin-androidx-fragment-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f0bc2083ab581a5130b75a9e39eca816/koin-androidx-fragment-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/40601a13e88d979af2ea0cd527ee0787/koin-androidx-fragment-2.2.2/res" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/638234a76aeccdf9abcab7495d7bde76/koin-androidx-fragment-2.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/638234a76aeccdf9abcab7495d7bde76/koin-androidx-fragment-2.2.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/638234a76aeccdf9abcab7495d7bde76/koin-androidx-fragment-2.2.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-fragment/2.2.2/76e316e7d1027a7733e14ead287d070a3cf81c4f/koin-androidx-fragment-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-fragment/2.2.2/df49ed4a3db710de3b717cec130aa41f21f1c80e/koin-androidx-fragment-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

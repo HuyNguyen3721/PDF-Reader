@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.otaliastudios:cameraview:2.7.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/44fa7b8cbd5356625b510836d74565d5/cameraview-2.7.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/44fa7b8cbd5356625b510836d74565d5/cameraview-2.7.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/44fa7b8cbd5356625b510836d74565d5/cameraview-2.7.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/44fa7b8cbd5356625b510836d74565d5/cameraview-2.7.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.otaliastudios/cameraview/2.7.1/a76dd9701695547af7758702bd9fc803b5c1d02e/cameraview-2.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.otaliastudios/cameraview/2.7.1/71eb764562f88a101edc3cbc70f7618dce247b09/cameraview-2.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

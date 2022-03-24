@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-dynamic-features-fragment:2.3.5@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/3f5c97f3c0152b32cac5a9361b9a4c88/navigation-dynamic-features-fragment-2.3.5/res" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/3f5c97f3c0152b32cac5a9361b9a4c88/navigation-dynamic-features-fragment-2.3.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/3f5c97f3c0152b32cac5a9361b9a4c88/navigation-dynamic-features-fragment-2.3.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-dynamic-features-fragment/2.3.5/c5245099185735bd6ba7998f5dda5a27b38dd4e0/navigation-dynamic-features-fragment-2.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

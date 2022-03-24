@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-runtime-ktx:2.2.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/ef80ada3da5a8baa8775b206eef552a9/navigation-runtime-ktx-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/ce7cc5d1eba090bff45e3b120e275279/navigation-runtime-ktx-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/9a4f2b0596a1a716745f849110da7763/navigation-runtime-ktx-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/793580acab6ce8133dd2f701c55c09e5/navigation-runtime-ktx-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/793580acab6ce8133dd2f701c55c09e5/navigation-runtime-ktx-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/793580acab6ce8133dd2f701c55c09e5/navigation-runtime-ktx-2.2.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime-ktx/2.2.2/4d2da12a557444e5706dd6ca99f059ec099a45de/navigation-runtime-ktx-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

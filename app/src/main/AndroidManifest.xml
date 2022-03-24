@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ezstudio.pdfreaderver4">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".PdfApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PDFReaderVer4"
+        android:windowSoftInputMode="adjustPan">
+        <activity android:name=".activity.SplashActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <provider
+            android:name=".utils.GenericFileProvider"
+            android:authorities="${applicationId}.files.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+            <meta-data
+                android:name="viewapp.sp.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+            <meta-data
+                android:name="viewapp.sp.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.PrivacyPolicy"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="application/msexcel" />
+                <data android:mimeType="application/ms-excel" />
+                <data android:mimeType="application/vnd.ms-excel" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+                <data android:mimeType="application/vnd.ms-excel.sheet.binary.macroenabled.12" />
+                <data android:mimeType="application/vnd.ms-excel.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.ms-excel.sheet.macroEnabled.12" />
+                <data android:mimeType="application/vnd.ms-excel.addin.macroEnabled.12" />
+                <data android:mimeType="application/mspowerpoint" />
+                <data android:mimeType="application/ms-powerpoint" />
+                <data android:mimeType="application/vnd.ms-powerpoint" />
+                <data android:mimeType="application/vnd.ms-powerpoint.presentation.macroEnabled.12" />
+                <data android:mimeType="application/vnd.ms-powerpoint.slideshow.macroEnabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.template" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+                <data android:mimeType="application/msword" />
+                <data android:mimeType="application/ms-word" />
+                <data android:mimeType="application/vnd.ms-word" />
+                <data android:mimeType="application/vnd.ms-works" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.template" />
+                <data android:mimeType="application/octet-stream" />
+                <data android:mimeType="application/log" />
+                <data android:mimeType="application/kswps" />
+                <data android:mimeType="application/kset" />
+                <data android:mimeType="application/ksdps" />
+                <data android:mimeType="application/wps" />
+                <data android:mimeType="application/wpss" />
+                <data android:mimeType="application/et" />
+                <data android:mimeType="application/ets" />
+                <data android:mimeType="application/dps" />
+                <data android:mimeType="application/dpss" />
+                <data android:mimeType="application/dpt" />
+                <data android:mimeType="application/wpt" />
+                <data android:mimeType="application/ett" />
+                <data android:mimeType="application/pdf" />
+                <data android:mimeType="application/xlsb" />
+                <data android:mimeType="application/rtf" />
+                <data android:mimeType="application/pptm" />
+                <data android:mimeType="application/ppsm" />
+                <data android:mimeType="application/potm" />
+                <data android:mimeType="application/mht" />
+                <data android:mimeType="multipart/related" />
+                <data android:mimeType="message/rfc822" />
+                <data android:mimeType="text/richtext" />
+                <data android:mimeType="text/rtf" />
+                <data android:mimeType="text/comma-separated-values" />
+                <data android:mimeType="text/csv" />
+                <data android:mimeType="text/xml" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="application/vnd.oasis.opendocument.text" />
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet" />
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.txt" />
+                <data android:pathPattern=".*\\.log" />
+                <data android:pathPattern=".*\\.lrc" />
+                <data android:pathPattern=".*\\.c" />
+                <data android:pathPattern=".*\\.cpp" />
+                <data android:pathPattern=".*\\.h" />
+                <data android:pathPattern=".*\\.asm" />
+                <data android:pathPattern=".*\\.s" />
+                <data android:pathPattern=".*\\.java" />
+                <data android:pathPattern=".*\\.asp" />
+                <data android:pathPattern=".*\\.bat" />
+                <data android:pathPattern=".*\\.bas" />
+                <data android:pathPattern=".*\\.prg" />
+                <data android:pathPattern=".*\\.cmd" />
+                <data android:pathPattern=".*\\.ppt" />
+                <data android:pathPattern=".*\\.pot" />
+                <data android:pathPattern=".*\\.pps" />
+                <data android:pathPattern=".*\\.dps" />
+                <data android:pathPattern=".*\\.dpss" />
+                <data android:pathPattern=".*\\.dpt" />
+                <data android:pathPattern=".*\\.pptx" />
+                <data android:pathPattern=".*\\.potx" />
+                <data android:pathPattern=".*\\.ppsx" />
+                <data android:pathPattern=".*\\.pptm" />
+                <data android:pathPattern=".*\\.potm" />
+                <data android:pathPattern=".*\\.ppsm" />
+                <data android:pathPattern=".*\\.doc" />
+                <data android:pathPattern=".*\\.dot" />
+                <data android:pathPattern=".*\\.wps" />
+                <data android:pathPattern=".*\\.wpss" />
+                <data android:pathPattern=".*\\.wpt" />
+                <data android:pathPattern=".*\\.docx" />
+                <data android:pathPattern=".*\\.dotx" />
+                <data android:pathPattern=".*\\.docm" />
+                <data android:pathPattern=".*\\.dotm" />
+                <data android:pathPattern=".*\\.rtf" />
+                <data android:pathPattern=".*\\.xls" />
+                <data android:pathPattern=".*\\.xlt" />
+                <data android:pathPattern=".*\\.et" />
+                <data android:pathPattern=".*\\.ets" />
+                <data android:pathPattern=".*\\.ett" />
+                <data android:pathPattern=".*\\.xlsx" />
+                <data android:pathPattern=".*\\.xltx" />
+                <data android:pathPattern=".*\\.csv" />
+                <data android:pathPattern=".*\\.xlsb" />
+                <data android:pathPattern=".*\\.xlsm" />
+                <data android:pathPattern=".*\\.xltm" />
+                <data android:pathPattern=".*\\.xml" />
+                <data android:pathPattern=".*\\.htm" />
+                <data android:pathPattern=".*\\.mht" />
+                <data android:pathPattern=".*\\.mhtm" />
+                <data android:pathPattern=".*\\.mhtml" />
+                <data android:pathPattern=".*\\.pdf" />
+                <data android:pathPattern=".*\\.odt" />
+                <data android:pathPattern=".*\\.odp" />
+                <data android:pathPattern=".*\\.ods" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

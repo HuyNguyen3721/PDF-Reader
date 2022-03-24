@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "66033593899",
+    "project_id": "pdf-ez-4",
+    "storage_bucket": "pdf-ez-4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66033593899:android:1a78e42e4bd2fa7dbfc46e",
+        "android_client_info": {
+          "package_name": "com.ezmobi.pdf.reader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66033593899-id0h6iboh7anud5mhts7ca642babr4kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMwQ-QoN154c1hsI-7k3yBysNM2S6692c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66033593899-id0h6iboh7anud5mhts7ca642babr4kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66033593899:android:ff65305a8f3d0740bfc46e",
+        "android_client_info": {
+          "package_name": "com.ezstudio.pdfreaderver4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66033593899-id0h6iboh7anud5mhts7ca642babr4kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMwQ-QoN154c1hsI-7k3yBysNM2S6692c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66033593899-id0h6iboh7anud5mhts7ca642babr4kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

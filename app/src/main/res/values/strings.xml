@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">PDF Reader</string>
+    <string name="search_pdf">Search PDF</string>
+    <string name="documents">Documents</string>
+    <string name="recent">Recent</string>
+    <string name="search">Search</string>
+<!--    <string name="document_files">Document Files</string>-->
+<!--    <string name="all_document">All Document</string>-->
+<!--    <string name="folder_files">Folder Files</string>-->
+<!--    <string name="recent_files">Recent Files</string>-->
+    <string name="allow_permission">Allow permission for storage access!</string>
+
+<!--    <string name="favorite_files">Favorite Files</string>-->
+
+<!--    <string name="word">Word</string>-->
+<!--    <string name="pdf">PDF</string>-->
+<!--    <string name="page">Page %s</string>-->
+
+    <string name="name">Name</string>
+    <string name="size">Size</string>
+    <string name="date">Date</string>
+    <string name="done">Done</string>
+    <string name="path">Path</string>
+    <!--Library-->
+    <!--      system         -->
+<!--    <string name="sys_button_ok">OK</string>-->
+<!--    <string name="sys_button_cancel">Cancel</string>-->
+<!--    <string name="sys_button_memory_card">MemoryCard</string>-->
+<!--    <string name="sys_button_search">Search</string>-->
+<!--    <string name="sys_button_recently_files">Recently Files</string>-->
+<!--    <string name="sys_button_mark_files">Marked Files</string>-->
+<!--    <string name="sys_button_local_storage">Local Storage</string>-->
+<!--    <string name="sys_menu_settings">Settings</string>-->
+<!--    <string name="sys_menu_account">Account</string>-->
+<!--    <string name="sys_menu_register">Register</string>-->
+<!--    <string name="sys_menu_update">Update</string>-->
+<!--    <string name="sys_menu_help">Help</string>-->
+<!--    <string name="sys_menu_about">About</string>-->
+<!--    <string name="sys_url_wxiwei">https://my.oschina.net/wxiwei</string>-->
+<!--    <string name="sys_url_internet_search">http://www.baidu.com</string>-->
+<!--    <string name="sys_search_hint">Search for files</string>-->
+<!--    <string name="sys_no_match">No matches.</string>-->
+<!--    <string name="sys_share_title">Sending mail...</string>-->
+<!--    <string name="sys_progress_message_loading">Loading, please wait...</string>-->
+
+    <!--      file list         -->
+
+    <!--      application         -->
+
+
+    <!--      word         -->
+
+    <!--      excel         -->
+
+    <!--      ppt         -->
+<!--    <string name="pg_toolsbar_note">Note</string>-->
+<!--    <string name="pg_slideshow">SlideShow</string>-->
+<!--    <string name="pg_slideshow_pageup">Page Up</string>-->
+<!--    <string name="pg_slideshow_pagedown">Page Down</string>-->
+
+    <!--     对话框         -->
+<!--    <string name="dialog_encoding_title">Text Encoding</string>-->
+<!--    <string name="dialog_folder_name">Folder Name</string>-->
+<!--    <string name="dialog_create_folder_error">Failed to create folder</string>-->
+<!--    <string name="dialog_file_name">File Name</string>-->
+<!--    <string name="dialog_file_rename_error">Failed to rename file</string>-->
+<!--    <string name="dialog_name_error">%s already exists.</string>-->
+<!--    <string name="dialog_delete_file">Are you sure you want to delete the selected item(s)?</string>-->
+<!--    <string name="dialog_move_file_error">You can not move or copy a folder into itself.</string>-->
+<!--    <string name="dialog_overwrite_file">Do you want to overwrite it?</string>-->
+<!--    <string name="dialog_error_title">Error</string>-->
+<!--    <string name="dialog_descending">Descending</string>-->
+<!--    <string name="dialog_ascending">Ascending</string>-->
+<!--    <string name="dialog_insufficient_memory">Unable to complete operation due to insufficient memory</string>-->
+<!--    <string name="dialog_system_crash_error">System crash, terminate running</string>-->
+<!--    <string name="dialog_format_error">File format error</string>-->
+<!--    <string name="dialog_old_document">The document is too old - Office 95 or older, which is not supported</string>-->
+<!--    <string name="dialog_parse_error">File parsing error</string>-->
+<!--    <string name="dialog_rtf_file">The document is really a RTF file, which is not supported</string>-->
+
+    <!--string app-->
+<!--    <string name="title_home">Home</string>-->
+    <string name="title_recent">Recent</string>
+    <string name="title_favorite">Favorite</string>
+<!--    <string name="title_all_file">All File</string>-->
+<!--    <string name="enter_search_text">Enter search text</string>-->
+    <string name="detail">Detail</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="not_empty">%s not empty</string>
+<!--    <string name="enter_file_name">Enter file name</string>-->
+    <string name="delete_this_file">Delete this file</string>
+    <string name="you_want_delete">Do you want to delete this file?</string>
+    <string name="properties">properties</string>
+    <string name="properties_detail">Properties</string>
+    <string name="home">Home</string>
+    <string name="document_file">Document Files</string>
+    <string name="document">Documents</string>
+    <string name="dox">Docx</string>
+    <string name="xls">Xls</string>
+    <string name="ppt">PPT</string>
+<!--    <string name="google_drive">Google Drive</string>-->
+<!--    <string name="select_file_storage">Select file from storage</string>-->
+<!--    <string name="choose_storage">Choose from storage</string>-->
+<!--    <string name="can_select_file">You can select files from different folders  on your devices</string>-->
+<!--    <string name="tool">Tool</string>-->
+<!--    <string name="all">All</string>-->
+<!--    <string name="cloud">Cloud</string>-->
+<!--    <string name="sort_by_name">Sort by name</string>-->
+<!--    <string name="sort_by_date">Sort by date</string>-->
+<!--    <string name="sort_by_size">Sort by size</string>-->
+<!--    <string name="sort_by">Sort by</string>-->
+<!--    <string name="file_size">File size : </string>-->
+<!--    <string name="last_edit">Last edit : </string>-->
+<!--    <string name="delete">Delete</string>-->
+    <string name="rename">Rename</string>
+<!--    <string name="share">Share</string>-->
+<!--    <string name="share_this_app">Share this App</string>-->
+<!--    <string name="info">Info</string>-->
+<!--    <string name="empty">(Note empty)</string>-->
+<!--    <string name="copy">Coppy</string>-->
+<!--    <string name="search_on_web">Search on web</string>-->
+<!--    <string name="orientation">Orientation</string>-->
+<!--    <string name="continuous">Continuous</string>-->
+<!--    <string name="page_by_page">Page by page </string>-->
+<!--    <string name="thumbnail">Thumbnail</string>-->
+<!--    <string name="bookmark">Bookmarks</string>-->
+<!--    <string name="slide_show">Slide Show</string>-->
+    <string name="do_you_want_to_delete_file">Do you want to delete file?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="hiding">Please wait...</string>
+    <string name="information">Information</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="file_exit">File exits !</string>
+    <string name="rename_fail">Rename fail !</string>
+<!--    <string name="parent_folder">Parent folder</string>-->
+<!--    <string name="show_hide_file">Show Hidden Files</string>-->
+<!--    <string name="select_all">Select all</string>-->
+<!--    <string name="error_choose_least_item">Please choose at least one item.</string>-->
+<!--    <string name="stop_show_hide_file">Stop Show Hidden Files</string>-->
+<!--    <string name="select_file_from_storage">Select file from Storage</string>-->
+<!--    <string name="choose_from_storage">Choose from storage</string>-->
+<!--    <string name="you_can_select_files_from_different_folders_on_your_devices">You can select files from different folders on your devices</string>-->
+<!--    <string name="dropbox">Dropbox</string>-->
+<!--    <string name="one_drive">One Drive</string>-->
+    <string name="no_result">No result...</string>
+    <string name="delete_file">Delete file?</string>
+    <string name="delete_file_menu">Delete File</string>
+<!--    <string name="document_reader">document reader</string>-->
+
+<!--    <string name="bottom_sheet_behavior_x" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>-->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="agree">AGREE</string>
+<!--    <string name="welcome_to_document_reader_app">Welcome to Document Reader App</string>-->
+    <string name="we_need_storage_permission_to_access_your_document_files">We need storage permission to access your\ndocument files</string>
+<!--    <string name="using_this_app_you_agree_with">Using this app , you agree with</string>-->
+    <string name="privacy_policys"><u>Privacy Policy</u></string>
+    <string name="need_permission">You need agree storage permission in app</string>
+    <string name="delete_failed">" Delete failed"</string>
+    <string name="thank_for_rate">"Thank you for rate "</string>
+<!--    <string name="enjoying_app">Enjoying app?</string>-->
+<!--    <string name="how_do_you_feel_about_this_app">How do you feel about this app?</string>-->
+<!--    <string name="rate_us_message">Do you want to rate this application?Your support will help us to improve it.</string>-->
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="remove_favorite">Remove favorite</string>
+    <string name="remove_recent">Remove Recent</string>
+    <string name="create_password">Create password</string>
+    <string name="password">Password</string>
+    <string name="remove_password">Remove password</string>
+    <string name="password_incorrect">Incorrect password</string>
+    <string name="pass_not_empty">Password not empty</string>
+    <string name="password_removed">Password removed</string>
+    <string name="create_success">Create success</string>
+    <string name="enter_password_again">Enter password again</string>
+    <string name="check_again">Please check again</string>
+
+    <string name="ALL">ALL</string>
+    <string name="PDF">PDF</string>
+    <string name="WORD">WORD</string>
+    <string name="EXCEL">EXCEL</string>
+    <string name="PPT">PPT</string>
+    <string name="add_to_bookmark">Add to Bookmarks</string>
+    <string name="rename_file">Rename File</string>
+    <string name="file_info">File Info</string>
+    <string name="remove_bookmark">Remove Bookmark</string>
+    <string name="no_files_found">No files found!</string>
+    <string name="premium_features">Premium Features</string>
+    <string name="content_policy">In order to provider you with better services\nand a clearer understanding of how we handle and protect your data, we have updated the Privacy Policy. </string>
+<!--    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>-->
+    <string name="more_our_apps">More Our Apps</string>
+
+</resources>

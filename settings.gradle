@@ -1,0 +1,6 @@
+rootProject.name = "PDF Reader Ver 4"
+include ':app'
+include ':base-module'
+include ':document_lib'
+include ':document_lib'
+include ':ads-module'
